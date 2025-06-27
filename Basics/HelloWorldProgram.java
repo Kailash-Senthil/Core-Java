@@ -71,7 +71,9 @@ public class HelloWorldProgram {
 		This could lead to small differences in floating-point results when the same Java program is run on different machines.
 		Enter strictfp:
 			When you use strictfp, you force Java to follow strict IEEE 754 rules, disabling any extra precision that a platform might try to use.
-			Modern JVMs are usually already very consistent, so strictfp is niche.
+	        When should you use strictfp?
+			When you need bit-for-bit identical floating-point results on different systems.
+			In scientific or financial applications where consistency is critical.
 		Where can you use strictfp?
 			On classes
 			On interfaces
