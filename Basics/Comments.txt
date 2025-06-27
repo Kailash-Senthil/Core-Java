@@ -1,0 +1,26 @@
+
+         different comments:
+         	1. Single-Line Comment
+         		// This is a single-line comment
+         	2. Multi-Line (Block) Comment
+         		/*
+ 			This is a multi-line comment.
+ 			It can span multiple lines.
+	 		*/
+		3. Documentation Comment (Javadoc)
+			to describe public APIs and generate documentation
+			Starts with /** and ends with */
+			Used to generate documentation for classes, methods, and fields
+			Typically includes tags like @param, @return, and @author
+			/**
+			 * Calculates the sum of two integers.
+			 * @param a the first number
+			 * @param b the second number
+			 * @return the sum of a and b
+			 */
+			 public int add(int a, int b) {
+			      return a + b;
+			 }
+			*/
+
+
