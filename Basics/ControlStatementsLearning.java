@@ -26,9 +26,9 @@ public class ControlStatementsLearning {
 		/*
 		 If Statement:
 		 	1.Simple if statement
-            2.if-else statement
-            3.if-else-if ladder
-            4.Nested if-statement
+                        2.if-else statement
+                        3.if-else-if ladder
+                        4.Nested if-statement
 		 */
 		
         int number = 75;
@@ -118,7 +118,7 @@ public class ControlStatementsLearning {
 | Executes at least once? | ✅ Yes          | ❌ Not guaranteed    | ❌ Not guaranteed  | ❌ Not guaranteed      |
 | Best for                | Run-then-check | Unknown count loops | Known count loops | Iterating arrays or collections |
 | Index-based             | Optional       | Optional            | ✅ Yes             | ❌ No (direct access) |
-							exit check loop	 entry check loop	   entry check loop     entry check loop	
+			   exit check loop   entry check loop	   entry check loop     entry check loop	
 
  */
 	
@@ -133,7 +133,7 @@ public class ControlStatementsLearning {
          		3.System.exit(0)
          			terminate the currently running Java program immediately.
          			Stops all running threads immediately.
-                    Does not return to any code after the System.exit(...) call.
+                                Does not return to any code after the System.exit(...) call.
 					Commonly used in:
 						GUI applications (on exit button press)
 						Error handling
