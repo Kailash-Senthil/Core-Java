@@ -7,7 +7,7 @@ public class ControlStatementsLearning {
 	 	code are executed according to the order in which they appear.
 	 	If we want to control the execution flow we will go to Control Statements
 	 	types:
-	 		1.Decision Making statements
+	    1.Decision Making statements
                 * if statements
                 * switch statement
             2.Loop statements
@@ -73,7 +73,69 @@ public class ControlStatementsLearning {
                 System.out.println("You passed.");
             }
         }
+
 		
+           /*
+		 Switch Statement:
+		 	executes one statement from multiple conditions. 
+		 	It is like if-else-if ladder statement.
+		 	There can be one or N number of case values for a switch expression.
+		 	The case value must be of switch expression type only.The case value must be literal or constant. It doesn't allow variables.
+		 	The case values must be unique. In case of duplicate value, it renders compile-time error.
+		 	Each case statement can have a break statement which is optional. When control reaches to the break statement, it jumps the control after the switch expression. If a break statement is not found, it executes the next case.
+		 	default: it is optional. will execute if all cases are not matched. Mostly it will be the last. can be first, middle. 
+		 */
+		
+		
+        int day = 8;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            
+        }
+        
+        /*
+          Supported Types in switch (Java 7 and above):
+          
+| **Type**     | **Primitive**       | **Wrapper**   | **Notes**           |
+| ------------ | ------------------- | ------------- | ------------------- |
+| `byte`       | ✅                   | ✅ `Byte`      |                     |
+| `short`      | ✅                   | ✅ `Short`     |                     |
+| `char`       | ✅                   | ✅ `Character` |                     |
+| `int`        | ✅                   | ✅ `Integer`   | Autoboxing works    |
+| `String`     | ❌ (not a primitive) | ✅             | From Java 7 onwards |
+| `enum` types | —                   | ✅             | Fully supported     |
+
+
+final int a = 1;
+switch (2) {
+    case a:  // ✅ allowed because 'a' is final and known at compile time
+        System.out.println("Case a");
+        break;
+}
+
+We can use switch statement inside(inside case) other switch statement in Java
+
+         */		
         
         /*
          Loop statements
