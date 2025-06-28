@@ -8,19 +8,49 @@
  			It can span multiple lines.
 	 		*/
 		3. Documentation Comment (Javadoc)
-			to describe public APIs and generate documentation
-			Starts with /** and ends with */
-			Used to generate documentation for classes, methods, and fields
-			Typically includes tags like @param, @return, and @author
-			/**
-			 * Calculates the sum of two integers.
-			 * @param a the first number
-			 * @param b the second number
-			 * @return the sum of a and b
-			 */
-			 public int add(int a, int b) {
-			      return a + b;
-			 }
-			*/
+/**
+ * {@docRoot}
+ * This is a sample program demonstrating various Javadoc tags.
+ * 
+ * @author John Doe
+ * @version 1.0
+ * @since 2025-06
+ */
+public class JavadocDemo {
+
+    /**
+     * Calculates the square of a number.
+     *
+     * {@code square(5)} returns {@code 25}
+     *
+     * @param number The number to square.
+     * @return The square of the number.
+     */
+    public int square(int number) {
+        return number * number;
+    }
+
+    /**
+     * Returns a greeting message.
+     *
+     * @return A simple greeting string.
+     */
+    public String getGreeting() {
+        return "Hello from JavadocDemo!";
+    }
+
+    /**
+     * Main method to run the example.
+     *
+     * @param args Command-line arguments.
+     */
+    public static void main(String[] args) {
+        JavadocDemo demo = new JavadocDemo();
+
+        System.out.println(demo.getGreeting());               // Output: Hello from JavadocDemo!
+        System.out.println("Square of 5 is: " + demo.square(5)); // Output: Square of 5 is: 25
+    }
+}
+
 
 
