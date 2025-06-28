@@ -1,13 +1,12 @@
-
-         different comments:
-         	1. Single-Line Comment
-         		// This is a single-line comment
-         	2. Multi-Line (Block) Comment
-         		/*
- 			This is a multi-line comment.
- 			It can span multiple lines.
-	 		*/
-		3. Documentation Comment (Javadoc)
+different comments:
+1. Single-Line Comment
+// This is a single-line comment
+2. Multi-Line (Block) Comment
+/*
+ This is a multi-line comment.
+ It can span multiple lines.
+*/
+3. Documentation Comment (Javadoc)
 /**
  * {@docRoot}
  * This is a sample program demonstrating various Javadoc tags.
