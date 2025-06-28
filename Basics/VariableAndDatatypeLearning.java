@@ -18,10 +18,10 @@ public class VariableAndDatatypeLearning {
 | Feature             | **Local Variable**                                 | **Instance Variable**                      | **Static Variable**                    |
 | ------------------- | -------------------------------------------------- | ------------------------------------------ | -------------------------------------- |
 | **Defined in**      | Inside a method, constructor, or block             | Inside a class, but **outside** any method, | Inside a class, using `static` keyword |
-																			 constructor, or block                         but **outside** any method,constructor,
-																			                                               or block. It cannot be local.
-																			                                               share it among all the instances of
-																			                                               the class
+					                                     constructor, or block                         but **outside** any method,constructor,
+										                                           or block. It cannot be local.
+												                           share it among all the instances of
+												                           the class
 																			 
 | **Memory Location** | Stack                                              | Heap                                       | Method Area (shared across class)      |
 
