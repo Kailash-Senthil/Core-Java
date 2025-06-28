@@ -5,7 +5,7 @@ public class OperatorsLearning {
 	 Operators:
 	 	operator is a symbol that is used to perform operations on variables and values
 	 	types:
-           	1.Unary Operator
+           	        1.Unary Operator
 			2.Arithmetic Operator
 			3.Relational Operator
 			4.Ternary(conditional) Operator
@@ -14,33 +14,12 @@ public class OperatorsLearning {
 			7.Logical Operator
 			8.Shift Operator
 			
-	 Operand:
-	   		An operand is a literal value or variable or expression on which an operator acts.
+	    Operand:
+	            An operand is a literal value or variable or expression on which an operator acts.
 	   	    int result = 10 + (5 * 2);
-            Operands: 10, 5, 2
+                        Operands: 10, 5, 2
 			Operators: +, *
 			This expression evaluates to 10 + (5 * 2) → 20
-			
-	 Java Operator Precedence Table:
-	 
-	 | **Precedence** | **Operators**                          | **Description**                          | **Associativity** |               |               |
-| -------------- | -------------------------------------- | ---------------------------------------- | ----------------- | ------------- | ------------- |
-| 1              | `()` `[]` `.`                          | Method call, array access, member access | Left to right     |               |               |
-| 2              | `++` `--` (postfix)                    | Post-increment/decrement                 | Left to right     |               |               |
-| 3              | `++` `--` `+` `-` `~` `!` (prefix)     | Unary operators                          | Right to left     |               |               |
-| 4              | `*` `/` `%`                            | Multiplicative                           | Left to right     |               |               |
-| 5              | `+` `-`                                | Additive                                 | Left to right     |               |               |
-| 6              | `<<` `>>` `>>>`                        | Bitwise shift                            | Left to right     |               |               |
-| 7              | `<` `<=` `>` `>=` `instanceof`         | Relational                               | Left to right     |               |               |
-| 8              | `==` `!=`                              | Equality                                 | Left to right     |               |               |
-| 9              | `&`                                    | Bitwise AND                              | Left to right     |               |               |
-| 10             | `^`                                    | Bitwise XOR                              | Left to right     |               |               |
-| 11             | '|'                                    | Bitwise OR                               | Left to right     |               |
-| 12             | `&&`                                   | Logical AND                              | Left to right     |               |               |
-| 13             | '||'                                   | Logical OR                               | Left to right     |
-| 14             | `?:`                                   | Ternary conditional                      | Right to left     |               |               |
-| 15             | `=`, `+=`, `-=`, `*=`, `/=`, `%=` etc. | Assignment                               | Right to left     |               |               |
-
 	 */
 
 	public static void main(String[] args) {
@@ -208,6 +187,9 @@ public class OperatorsLearning {
 		 
 		 /*
 		  Assignment Operator
+                      types:
+		           1. Single Assignment Operator (=)
+	                   2. Compound Assignment Operator (+=)
 		  
 | **Operator** | **Name**                        | **Description**                                                                                           |                                                                                              |
 | ------------ | ------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
