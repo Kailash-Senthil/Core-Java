@@ -4,7 +4,10 @@ public class Arrays {
 	
 	/*
 	 Arrays:
-	 	A group of individual objects - as a single entry
+	 		Fixed-size container for elements of the same data type.
+		Disadvantages:
+			unused memory are waste.
+			homogeneous.
 	 	Types:
 	 		1.Single Dimensional Array
 			2.Multidimensional Array

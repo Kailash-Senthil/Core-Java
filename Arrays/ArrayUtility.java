@@ -12,8 +12,9 @@ public class ArrayUtility {
         sort(T[] a, int fromIndex, int toIndex, Comparator<? super T> c)
         tim sort
         Arrays.sort(null)	Throws exception immediately	NullPointerException
+        return nothing
          */
-	    int[] arr = {5, 2, 9, 1, 7};
+	      int[] arr = {5, 2, 9, 1, 7};
         Arrays.sort(arr);
         System.out.println("Sorted: " + Arrays.toString(arr)); // [1, 2, 5, 7, 9]
 
@@ -21,6 +22,7 @@ public class ArrayUtility {
         binarySearch(T[] a, int fromIndex, int toIndex, T key, Comparator<? super T> c)
         Arrays.binarySearch(null, key) if key is null also	Throws ullPointerException
         if key not present small number -->  -1 , big number --> -size+1
+        return int
         */ 
         System.out.println("Index of 5: " + Arrays.binarySearch(arr, 5)); // 2
 
