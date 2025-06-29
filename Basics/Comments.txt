@@ -1,0 +1,72 @@
+Comments:
+	comments are the statements in a program that are not executed by the compiler and interpreter.
+Types:
+	1.Single Line Comment
+	2.Multi Line Comment
+	3.Documentation Comment
+
+Single Line Comment:
+	//This is single line comment  
+
+Multi Line Comment:
+	/*  
+	This   
+	is   
+	multi line   
+	comment  
+	*/
+    
+Documentation Comment:
+	
+
+/**
+ * A sample Java program demonstrating the use of various Javadoc tags.
+ *
+ * {@docRoot}
+ *
+ * @author John Doe
+ * @version 1.0
+ * @since 2023-01-01
+ */
+public class JavadocExample {
+
+    /**
+     * The main method that demonstrates various Javadoc tags.
+     *
+     * @param args Command-line arguments passed to the program.
+     * @return A string message indicating successful execution.
+     */
+    public static void main(String[] args) {
+        System.out.println("Hello, welcome to Javadoc example!");
+        System.out.println(getMessage("Hello, World!"));
+    }
+
+    /**
+     * This method returns a formatted message.
+     * 
+     * {@code String}
+     *
+     * @param input The input message to format.
+     * @return A formatted string message.
+     */
+    public static String getMessage(String input) {
+        return "Message: " + input;
+    }
+
+    /**
+     * This method performs addition of two numbers.
+     * 
+     * Example usage:
+     * {@code int result = addNumbers(5, 3);}
+     * 
+     * @param num1 First number to add.
+     * @param num2 Second number to add.
+     * @return The sum of num1 and num2.
+     */
+    public static int addNumbers(int num1, int num2) {
+        return num1 + num2;
+    }
+}
+
+
+
