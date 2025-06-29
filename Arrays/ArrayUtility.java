@@ -161,6 +161,7 @@ System.out.println(Arrays.toString(copy));
         /*parallelPrefix
          parallelPrefix(array,lambda expression or function);
          Cumulates, in parallel, each element of the given array in place, using the supplied function.
+         returns nothing
          throws NullPointerException
          */ 
         int[] prefix = {1, 2, 3, 4};
@@ -170,6 +171,7 @@ System.out.println(Arrays.toString(copy));
         /*parallelSetAll
          parallelSetAll(array,lambda expression or function);
          parallely Set all elements of the specified array, using the provided generator function to compute each element.
+         returns nothing
          @throws NullPointerException
          */ 
         int[] parallelSet = new int[5];
@@ -178,6 +180,7 @@ System.out.println(Arrays.toString(copy));
 
         /*parallelSort
          parallelSort(T[] a, int fromIndex, int toIndex, Comparator<? super T> cmp)
+         returns nothing
          throws NullPointerException */ 
         int[] unsorted = {9, 2, 5, 1, 7};
         Arrays.parallelSort(unsorted);
@@ -186,6 +189,7 @@ System.out.println(Arrays.toString(copy));
         /*setAll
          Set all elements of the specified array, using the provided generator function to compute each element.
          setAll(int[] array, function)
+         returns nothing
          Throws NullPointerException 
          */ 
         int[] setAllArray = new int[4];
