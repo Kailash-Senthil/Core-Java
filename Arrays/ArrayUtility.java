@@ -145,7 +145,10 @@ System.out.println(Arrays.toString(copy));
         /*
          asList
          Returns a fixed-size list backed by the specified array.
-         Throws NullPointerException*/
+         Throws NullPointerException
+	 ✅ Yes, you can change (update) the values at existing indexes using set(index, value).
+        ❌ But you cannot add or remove elements from the list. It has a fixed size.	 
+        */
         String[] strArr = {"Java", "Python", "C++"};
         List<String> list = Arrays.asList(strArr);
         System.out.println("As List: " + list);
